@@ -1,6 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
 import { withPropsOnChange, withState, withHandlers, compose } from "recompose";
+import './index.css';
+
 /*
 TITLE:
 Compute Expensive Props Lazily using Recompose
@@ -62,7 +64,7 @@ let count = 1;
 
 function fibonacci(num, memo) {
   if (!memo) {
-    document.getElementById("root").textContent = `Computed: ${++count || 1}`;
+    document.getElementById("computed").textContent = `Computed: ${++count || 1}`;
   }
 
   memo = memo || {};

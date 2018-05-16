@@ -11,7 +11,7 @@ unable to be overridden.
 import React from "react";
 import { render } from "react-dom";
 import { mapProps } from "recompose";
-import 'index.css';
+import './index.css';
 
 const User = ({ name, status }) =>
   <div className="User">{name}—{status}</div>;

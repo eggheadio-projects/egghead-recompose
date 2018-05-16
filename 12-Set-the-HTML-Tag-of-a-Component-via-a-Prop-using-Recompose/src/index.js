@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { compose, componentFromProp, withProps } from "recompose";
+import './index.css';
 /*
 TITLE:
 Set the HTML Tag of a Component via a Prop using Recompose

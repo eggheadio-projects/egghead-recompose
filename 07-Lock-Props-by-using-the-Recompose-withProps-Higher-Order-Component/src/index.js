@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { withProps } from "recompose";
-import 'index.css';
+import './index.css';
 
 /*
 TITLE:
